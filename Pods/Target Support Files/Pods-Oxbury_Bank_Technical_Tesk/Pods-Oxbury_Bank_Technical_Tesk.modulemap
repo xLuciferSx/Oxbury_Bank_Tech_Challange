@@ -1,0 +1,6 @@
+framework module Pods_Oxbury_Bank_Technical_Tesk {
+  umbrella header "Pods-Oxbury_Bank_Technical_Tesk-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F47B2E629675DBD00435257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2E529675DBD00435257 /* AppDelegate.swift */; };
+		1F47B2E829675DBD00435257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2E729675DBD00435257 /* SceneDelegate.swift */; };
+		1F47B2EA29675DBD00435257 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2E929675DBD00435257 /* ViewController.swift */; };
+		1F47B2ED29675DBD00435257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B2EB29675DBD00435257 /* Main.storyboard */; };
+		1F47B2F029675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2EE29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld */; };
+		1F47B2F229675DBE00435257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B2F129675DBE00435257 /* Assets.xcassets */; };
+		1F47B2F529675DBE00435257 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B2F329675DBE00435257 /* LaunchScreen.storyboard */; };
+		1F47B3042967634E00435257 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B3032967634E00435257 /* APIClient.swift */; };
+		6E5A05406C4E7E130522374E /* Pods_Oxbury_Bank_Technical_Tesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242FA1A1E98FF2234F04BDAE /* Pods_Oxbury_Bank_Technical_Tesk.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F47B2E229675DBD00435257 /* Oxbury_Bank_Technical_Tesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oxbury_Bank_Technical_Tesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F47B2E529675DBD00435257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F47B2E729675DBD00435257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F47B2E929675DBD00435257 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F47B2EC29675DBD00435257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F47B2EF29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oxbury_Bank_Technical_Tesk.xcdatamodel; sourceTree = "<group>"; };
+		1F47B2F129675DBE00435257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F47B2F429675DBE00435257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F47B2F629675DBE00435257 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F47B3032967634E00435257 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = SOURCE_ROOT; };
+		242FA1A1E98FF2234F04BDAE /* Pods_Oxbury_Bank_Technical_Tesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oxbury_Bank_Technical_Tesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ABD482AD5A86AFB9E0D5F36 /* Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig"; path = "Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig"; sourceTree = "<group>"; };
+		A598427118F68CD2FBEE1245 /* Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig"; path = "Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F47B2DF29675DBD00435257 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E5A05406C4E7E130522374E /* Pods_Oxbury_Bank_Technical_Tesk.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F47B2D929675DBD00435257 = {
+			isa = PBXGroup;
+			children = (
+				1F47B2E429675DBD00435257 /* Oxbury_Bank_Technical_Tesk */,
+				1F47B2E329675DBD00435257 /* Products */,
+				A64AF1EEB53872372B03D9BD /* Pods */,
+				ED5550BF563B0443C2E74EAD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1F47B2E329675DBD00435257 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F47B2E229675DBD00435257 /* Oxbury_Bank_Technical_Tesk.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F47B2E429675DBD00435257 /* Oxbury_Bank_Technical_Tesk */ = {
+			isa = PBXGroup;
+			children = (
+				1F47B3022967606100435257 /* URLs */,
+				1F47B30129675FFB00435257 /* API */,
+				1F47B30029675FF200435257 /* Model */,
+				1F47B2FF29675FEE00435257 /* View */,
+				1F47B2FE29675FE900435257 /* Controller */,
+				1F47B2E529675DBD00435257 /* AppDelegate.swift */,
+				1F47B2E729675DBD00435257 /* SceneDelegate.swift */,
+				1F47B2E929675DBD00435257 /* ViewController.swift */,
+				1F47B2EB29675DBD00435257 /* Main.storyboard */,
+				1F47B2F129675DBE00435257 /* Assets.xcassets */,
+				1F47B2F329675DBE00435257 /* LaunchScreen.storyboard */,
+				1F47B2F629675DBE00435257 /* Info.plist */,
+				1F47B2EE29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld */,
+			);
+			path = Oxbury_Bank_Technical_Tesk;
+			sourceTree = "<group>";
+		};
+		1F47B2FE29675FE900435257 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1F47B2FF29675FEE00435257 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1F47B30029675FF200435257 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1F47B30129675FFB00435257 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				1F47B3032967634E00435257 /* APIClient.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		1F47B3022967606100435257 /* URLs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = URLs;
+			sourceTree = "<group>";
+		};
+		A64AF1EEB53872372B03D9BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A598427118F68CD2FBEE1245 /* Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig */,
+				4ABD482AD5A86AFB9E0D5F36 /* Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		ED5550BF563B0443C2E74EAD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				242FA1A1E98FF2234F04BDAE /* Pods_Oxbury_Bank_Technical_Tesk.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F47B2E129675DBD00435257 /* Oxbury_Bank_Technical_Tesk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F47B2F929675DBE00435257 /* Build configuration list for PBXNativeTarget "Oxbury_Bank_Technical_Tesk" */;
+			buildPhases = (
+				212BC4D4C325BF09C9EAC0C8 /* [CP] Check Pods Manifest.lock */,
+				1F47B2DE29675DBD00435257 /* Sources */,
+				1F47B2DF29675DBD00435257 /* Frameworks */,
+				1F47B2E029675DBD00435257 /* Resources */,
+				8150F26B0AD4113ADD776392 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Oxbury_Bank_Technical_Tesk;
+			productName = Oxbury_Bank_Technical_Tesk;
+			productReference = 1F47B2E229675DBD00435257 /* Oxbury_Bank_Technical_Tesk.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F47B2DA29675DBD00435257 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1F47B2E129675DBD00435257 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 1F47B2DD29675DBD00435257 /* Build configuration list for PBXProject "Oxbury_Bank_Technical_Tesk" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F47B2D929675DBD00435257;
+			productRefGroup = 1F47B2E329675DBD00435257 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F47B2E129675DBD00435257 /* Oxbury_Bank_Technical_Tesk */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F47B2E029675DBD00435257 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47B2F529675DBE00435257 /* LaunchScreen.storyboard in Resources */,
+				1F47B2F229675DBE00435257 /* Assets.xcassets in Resources */,
+				1F47B2ED29675DBD00435257 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		212BC4D4C325BF09C9EAC0C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Oxbury_Bank_Technical_Tesk-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8150F26B0AD4113ADD776392 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F47B2DE29675DBD00435257 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F47B2EA29675DBD00435257 /* ViewController.swift in Sources */,
+				1F47B2E629675DBD00435257 /* AppDelegate.swift in Sources */,
+				1F47B2E829675DBD00435257 /* SceneDelegate.swift in Sources */,
+				1F47B3042967634E00435257 /* APIClient.swift in Sources */,
+				1F47B2F029675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F47B2EB29675DBD00435257 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F47B2EC29675DBD00435257 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F47B2F329675DBE00435257 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F47B2F429675DBE00435257 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F47B2F729675DBE00435257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F47B2F829675DBE00435257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F47B2FA29675DBE00435257 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A598427118F68CD2FBEE1245 /* Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D6T3D8V5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oxbury_Bank_Technical_Tesk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raivis-olehno.Oxbury-Bank-Technical-Tesk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F47B2FB29675DBE00435257 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ABD482AD5A86AFB9E0D5F36 /* Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7D6T3D8V5A;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Oxbury_Bank_Technical_Tesk/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.raivis-olehno.Oxbury-Bank-Technical-Tesk";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F47B2DD29675DBD00435257 /* Build configuration list for PBXProject "Oxbury_Bank_Technical_Tesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47B2F729675DBE00435257 /* Debug */,
+				1F47B2F829675DBE00435257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F47B2F929675DBE00435257 /* Build configuration list for PBXNativeTarget "Oxbury_Bank_Technical_Tesk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F47B2FA29675DBE00435257 /* Debug */,
+				1F47B2FB29675DBE00435257 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1F47B2EE29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1F47B2EF29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodel */,
+			);
+			currentVersion = 1F47B2EF29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodel */;
+			path = Oxbury_Bank_Technical_Tesk.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1F47B2DA29675DBD00435257 /* Project object */;
+}
