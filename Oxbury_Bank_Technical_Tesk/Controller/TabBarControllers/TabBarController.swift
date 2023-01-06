@@ -8,9 +8,7 @@ import UIKit
 
 
 class TabBarController: UITabBarController, UITabBarControllerDelegate {
-    
-    //  var currentVC: UIViewController?
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         delegate = self
@@ -36,10 +34,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
         
         let beerItem = self.addTabItem(forViewController: beer, imageName: "beer", selectedImageName: "beer", forTitle: "Beers")
         
-        let settings = UINavigationController(rootViewController:SettingsViewController())
-        let settingsItem = self.addTabItem(forViewController: settings, imageName: "settings", selectedImageName: "settings", forTitle: "Settings")
-        
-        let controllers = [beerItem, settingsItem]
+        let controllers = [beerItem]
         self.viewControllers = controllers
     }
     
