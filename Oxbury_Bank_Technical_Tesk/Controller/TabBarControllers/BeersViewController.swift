@@ -54,8 +54,8 @@ class BeersViewController: UIViewController {
 extension BeersViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let beerInfoVC = BeerInfoViewController(beer: beerArray[indexPath.row])
-        beerInfoVC.hidesBottomBarWhenPushed = true
-        self.navigationController?.pushViewController(beerInfoVC, animated: true)
+        beerInfoVC.modalPresentationStyle = .fullScreen
+        self.present(beerInfoVC, animated: true)
     }
 }
 

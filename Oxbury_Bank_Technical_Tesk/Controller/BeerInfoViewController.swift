@@ -8,8 +8,13 @@
 import UIKit
 
 class BeerInfoViewController: UIViewController {
-
+    
+    @IBOutlet private weak var navBarTitle: UILabel!
+    
+    var beer: Beer
+    
     init(beer: Beer) {
+        self.beer = beer
         super.init(nibName: nil, bundle: nil)
     }
     
@@ -20,9 +25,13 @@ class BeerInfoViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         
+        navBarTitle.text = beer.name
     }
     
     
+    @IBAction func backButtonTapped(_ sender: Any) {
+        self.dismiss(animated: false)
+
+    }
 }

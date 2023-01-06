@@ -10,6 +10,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="BeerInfoViewController" customModule="Oxbury_Bank_Technical_Tesk" customModuleProvider="target">
             <connections>
+                <outlet property="navBarTitle" destination="aJY-za-tZa" id="RMt-80-Yv8"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -18,25 +19,38 @@
             <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3pA-WH-orj">
-                    <rect key="frame" x="16" y="59" width="30" height="30"/>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJY-za-tZa">
+                    <rect key="frame" x="175.66666666666666" y="68.666666666666671" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KyU-ih-NcL">
+                    <rect key="frame" x="16" y="59" width="40" height="40"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="30" id="Vra-P8-gWc"/>
-                        <constraint firstAttribute="width" constant="30" id="X1G-Rd-d9I"/>
+                        <constraint firstAttribute="width" constant="40" id="29I-0O-q6R"/>
+                        <constraint firstAttribute="height" constant="40" id="eBI-2z-JwK"/>
                     </constraints>
                     <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                    <state key="normal" image="back"/>
+                    <connections>
+                        <action selector="backButtonTapped:" destination="-1" eventType="touchUpInside" id="pLk-Ba-HDg"/>
+                    </connections>
                 </button>
             </subviews>
             <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
             <color key="backgroundColor" systemColor="systemBackgroundColor"/>
             <constraints>
-                <constraint firstItem="3pA-WH-orj" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="hFR-Tk-Gdd"/>
-                <constraint firstItem="3pA-WH-orj" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="sWK-au-Ik6"/>
+                <constraint firstItem="KyU-ih-NcL" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" id="55G-gg-bxZ"/>
+                <constraint firstItem="KyU-ih-NcL" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="16" id="IfO-Gd-HrL"/>
+                <constraint firstItem="aJY-za-tZa" firstAttribute="centerY" secondItem="KyU-ih-NcL" secondAttribute="centerY" id="PsV-yO-Dqp"/>
+                <constraint firstItem="aJY-za-tZa" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZR7-1W-Pk1"/>
             </constraints>
-            <point key="canvasLocation" x="132" y="-11"/>
+            <point key="canvasLocation" x="-1288" y="80"/>
         </view>
     </objects>
     <resources>
+        <image name="back" width="50" height="50"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

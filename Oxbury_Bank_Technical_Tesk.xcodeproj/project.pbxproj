@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		1F47B2E629675DBD00435257 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2E529675DBD00435257 /* AppDelegate.swift */; };
-		1F47B2E829675DBD00435257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2E729675DBD00435257 /* SceneDelegate.swift */; };
 		1F47B2ED29675DBD00435257 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B2EB29675DBD00435257 /* Main.storyboard */; };
 		1F47B2F029675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B2EE29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld */; };
 		1F47B2F229675DBE00435257 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B2F129675DBE00435257 /* Assets.xcassets */; };
@@ -28,13 +27,13 @@
 		1F47B3282967AA0F00435257 /* BeerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B3262967AA0F00435257 /* BeerTableViewCell.xib */; };
 		1F47B32C2967AB9700435257 /* BeerInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B32A2967AB9700435257 /* BeerInfoViewController.swift */; };
 		1F47B32D2967AB9700435257 /* BeerInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F47B32B2967AB9700435257 /* BeerInfoViewController.xib */; };
+		1F47B32F2967B52B00435257 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F47B32E2967B52B00435257 /* SceneDelegate.swift */; };
 		6E5A05406C4E7E130522374E /* Pods_Oxbury_Bank_Technical_Tesk.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 242FA1A1E98FF2234F04BDAE /* Pods_Oxbury_Bank_Technical_Tesk.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F47B2E229675DBD00435257 /* Oxbury_Bank_Technical_Tesk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Oxbury_Bank_Technical_Tesk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F47B2E529675DBD00435257 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1F47B2E729675DBD00435257 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		1F47B2EC29675DBD00435257 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1F47B2EF29675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Oxbury_Bank_Technical_Tesk.xcdatamodel; sourceTree = "<group>"; };
 		1F47B2F129675DBE00435257 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -55,6 +54,7 @@
 		1F47B3262967AA0F00435257 /* BeerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerTableViewCell.xib; sourceTree = "<group>"; };
 		1F47B32A2967AB9700435257 /* BeerInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerInfoViewController.swift; sourceTree = "<group>"; };
 		1F47B32B2967AB9700435257 /* BeerInfoViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BeerInfoViewController.xib; sourceTree = "<group>"; };
+		1F47B32E2967B52B00435257 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		242FA1A1E98FF2234F04BDAE /* Pods_Oxbury_Bank_Technical_Tesk.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Oxbury_Bank_Technical_Tesk.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ABD482AD5A86AFB9E0D5F36 /* Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig"; path = "Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk.release.xcconfig"; sourceTree = "<group>"; };
 		A598427118F68CD2FBEE1245 /* Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig"; path = "Target Support Files/Pods-Oxbury_Bank_Technical_Tesk/Pods-Oxbury_Bank_Technical_Tesk.debug.xcconfig"; sourceTree = "<group>"; };
@@ -100,7 +100,7 @@
 				1F47B2FF29675FEE00435257 /* View */,
 				1F47B2FE29675FE900435257 /* Controller */,
 				1F47B2E529675DBD00435257 /* AppDelegate.swift */,
-				1F47B2E729675DBD00435257 /* SceneDelegate.swift */,
+				1F47B32E2967B52B00435257 /* SceneDelegate.swift */,
 				1F47B2EB29675DBD00435257 /* Main.storyboard */,
 				1F47B2F129675DBE00435257 /* Assets.xcassets */,
 				1F47B2F329675DBE00435257 /* LaunchScreen.storyboard */,
@@ -336,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1F47B306296779C100435257 /* Beer.swift in Sources */,
+				1F47B32F2967B52B00435257 /* SceneDelegate.swift in Sources */,
 				1F47B3202967A46200435257 /* BeerViewCoordinatorProtocol.swift in Sources */,
 				1F47B31A29679CA100435257 /* SettingsViewController.swift in Sources */,
 				1F47B2E629675DBD00435257 /* AppDelegate.swift in Sources */,
@@ -343,7 +344,6 @@
 				1F47B31629679C1100435257 /* BeersViewController.swift in Sources */,
 				1F47B31E2967A44800435257 /* BeerViewCoordinator.swift in Sources */,
 				1F47B30B29677E3C00435257 /* BeerModelProtocol.swift in Sources */,
-				1F47B2E829675DBD00435257 /* SceneDelegate.swift in Sources */,
 				1F47B3272967AA0F00435257 /* BeerTableViewCell.swift in Sources */,
 				1F47B2F029675DBD00435257 /* Oxbury_Bank_Technical_Tesk.xcdatamodeld in Sources */,
 				1F47B30829677DAF00435257 /* BeerModel.swift in Sources */,
@@ -504,6 +504,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -533,6 +534,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
