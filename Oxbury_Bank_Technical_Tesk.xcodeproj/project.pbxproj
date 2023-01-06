@@ -94,8 +94,6 @@
 			isa = PBXGroup;
 			children = (
 				1F47B3212967A95400435257 /* Helpers */,
-				1F47B30E296788DF00435257 /* API */,
-				1F47B3022967606100435257 /* URLs */,
 				1F47B30029675FF200435257 /* Model */,
 				1F47B2FF29675FEE00435257 /* View */,
 				1F47B2FE29675FE900435257 /* Controller */,
@@ -137,13 +135,6 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		1F47B3022967606100435257 /* URLs */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = URLs;
-			sourceTree = "<group>";
-		};
 		1F47B30929677DCD00435257 /* Beer */ = {
 			isa = PBXGroup;
 			children = (
@@ -152,13 +143,6 @@
 				1F47B30A29677E3C00435257 /* BeerModelProtocol.swift */,
 			);
 			path = Beer;
-			sourceTree = "<group>";
-		};
-		1F47B30E296788DF00435257 /* API */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = API;
 			sourceTree = "<group>";
 		};
 		1F47B31129679B7C00435257 /* TabBarControllers */ = {

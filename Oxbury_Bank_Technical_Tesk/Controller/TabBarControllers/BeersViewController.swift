@@ -68,7 +68,7 @@ extension BeersViewController: UITableViewDataSource {
 
         guard let beerCell = tableView.dequeueReusableCell(withIdentifier: "BeerTableViewCell", for: indexPath) as? BeerTableViewCell else { fatalError() }
         
-        beerCell.setupCell(beer: beerArray[indexPath.row])
+        beerCell.setupCell(beer:beerArray[indexPath.row])
         
         return beerCell
     }
