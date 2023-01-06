@@ -19,7 +19,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.tabBar.tintColor = .white
+        self.tabBar.tintColor = .black
         self.tabBar.unselectedItemTintColor = UIColor(red: 0/255, green: 0/255, blue: 0/255, alpha: 0.6)
         self.tabBar.isTranslucent = false
         self.tabBar.backgroundColor = UIColor(red: 57/255, green: 83/255, blue: 109/255, alpha: 1)

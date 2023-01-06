@@ -20,4 +20,5 @@ struct BeerViewCoordinator: BeerViewCoordinatorProtocol {
         
         transition(beersViewController)
     }
+    
 }

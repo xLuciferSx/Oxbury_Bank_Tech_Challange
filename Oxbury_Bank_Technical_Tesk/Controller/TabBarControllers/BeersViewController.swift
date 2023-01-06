@@ -27,22 +27,22 @@ class BeersViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        getData()
         setupView()
     }
     
     func setupView() {
         tableView.delegate = self
         tableView.dataSource = self
-        tableView.registerNibArray(withNames: [""])
+        tableView.registerNibArray(withNames: ["BeerTableViewCell"])
+        getData()
     }
     
     func getData() {
-        
         model.getBeers { result in
             switch result {
             case .success(let beer):
                 self.beerArray = beer
+                self.tableView.reloadData()
             case .failure(let failure):
                 print("Failed to fetch data: \(failure)")
             }
@@ -52,7 +52,11 @@ class BeersViewController: UIViewController {
 }
 
 extension BeersViewController: UITableViewDelegate {
-    
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        let beerInfoVC = BeerInfoViewController(beer: beerArray[indexPath.row])
+        beerInfoVC.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(beerInfoVC, animated: true)
+    }
 }
 
 extension BeersViewController: UITableViewDataSource {
@@ -61,9 +65,12 @@ extension BeersViewController: UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+
+        guard let beerCell = tableView.dequeueReusableCell(withIdentifier: "BeerTableViewCell", for: indexPath) as? BeerTableViewCell else { fatalError() }
+        
+        beerCell.setupCell(beer: beerArray[indexPath.row])
+        
+        return beerCell
     }
-    
-    
     
 }
