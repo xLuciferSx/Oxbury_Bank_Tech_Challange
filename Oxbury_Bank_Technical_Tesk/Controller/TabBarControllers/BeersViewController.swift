@@ -42,6 +42,14 @@ class BeersViewController: UIViewController {
             switch result {
             case .success(let beer):
                 self.beerArray = beer
+//                self.model.saveBeersInCoreData(beers: beer) { result in
+//                    switch result {
+//                    case .success():
+//                        print("Data Saved Succesfully")
+//                    case .failure(let failure):
+//                        print(failure)
+//                    }
+//                }
                 self.tableView.reloadData()
             case .failure(let failure):
                 print("Failed to fetch data: \(failure)")

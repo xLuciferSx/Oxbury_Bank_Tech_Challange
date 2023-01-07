@@ -9,6 +9,7 @@ import Foundation
 
 enum BeerModelError: Error {
     case failedToFetchBeers
+    case failedToSaveBeersInCoreData
 }
 
 protocol BeerModelProtocol {
@@ -16,5 +17,10 @@ protocol BeerModelProtocol {
     func getBeers(
         completion: @escaping (Result<[Beer], BeerModelError>) -> Void
     )
+    
+//    func saveBeersInCoreData(
+//        beers: [Beer],
+//        completion: @escaping (Result<Void, BeerModelError>) -> Void
+//    )
     
 }
