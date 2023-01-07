@@ -5,6 +5,11 @@ This is a technical task for Oxbury Bank
 ## Getting Started
 
 To run this project you need to have at least iOS 13 and above. 
+Pods are preinstalled and you don't need to do pod install. 
+
+This project contains only 2 pods - 
+Alamofire - Network Request Handling 
+SDWebImage - Web Image donwloading and displaying in UIImageViews and etc.
 
 ### Information about the project
 
